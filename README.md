@@ -53,7 +53,11 @@ https://drive.google.com/drive/folders/19478J9a36_zdiMYd8aGxythohOFWj1zy
    - A Celula 2 validara a conexao e inspecionara as 10 tabelas do banco de dados.
    - A Celula 3 solicitara a sua chave da OpenRouter (formato sk-or-v1-...) de forma segura via getpass.
    - As Celulas 4 e 5 inicializam a camada de seguranca, prompts e o pipeline do agente.
-
+   - Celula 6: Bateria de Validacao Pratica das Perguntas de Negocio
+   - Celula 7: Formatacao Financeira, Visualizacao de Dados (DataViz) e Chat Interativo
+   - Celula 8: Suite de Avaliacao Automatizada (Golden Set / Benchmark)
+   - Célula 9: Teste unitário
+ 
 ---
 
 
@@ -72,8 +76,12 @@ resultado = ask_cinedata("Quais sao os 5 filmes com maior receita em R$?")
 # Visualizar a sintese em linguagem natural:
 print(resultado["answer"])
 
+
+
 # Visualizar a consulta SQL gerada pelo agente:
 print(resultado["sql"])
+````
+
 
 # Acessar a tabela bruta de resultados como DataFrame:
 print(resultado["data"])
