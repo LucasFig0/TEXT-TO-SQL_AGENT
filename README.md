@@ -37,7 +37,7 @@ https://drive.google.com/drive/folders/19478J9a36_zdiMYd8aGxythohOFWj1zy
 
 ## Como Executar no Google Colab
 
-1. Abra o Google Colab e carregue o arquivo do notebook (cinedata_agent.ipynb).
+1. Abra o Google Colab e carregue o arquivo do notebook (Agente_TEXT_TO_SQL (4).ipynb).
 
 2. Obtenha o arquivo do banco de dados:
    Acesse a pasta do Drive indicada acima (https://drive.google.com/drive/folders/19478J9a36_zdiMYd8aGxythohOFWj1zy) e faca o download do arquivo cinerocket.db.
